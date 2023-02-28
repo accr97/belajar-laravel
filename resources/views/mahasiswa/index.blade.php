@@ -1,4 +1,4 @@
-<h1> LIST MAHASISWA </h1>
+<h1> LIST MAHASISWA GUNADARMA</h1>
 
 <button>
     <a href="{{route('mahasiswa.create')}}" >Tambah Data </a>
