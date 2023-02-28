@@ -1,3 +1,5 @@
+<h1> LIST MAHASISWA </h1>
+
 <button>
     <a href="{{route('mahasiswa.create')}}" >Tambah Data </a>
 </button>
