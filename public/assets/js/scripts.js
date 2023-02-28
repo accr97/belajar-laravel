@@ -1,23 +1,6 @@
 "use strict";
 
-// ChartJS
-if(window.Chart) {
-  Chart.defaults.global.defaultFontFamily = "'Nunito', 'Segoe UI', 'Arial'";
-  Chart.defaults.global.defaultFontSize = 12;
-  Chart.defaults.global.defaultFontStyle = 500;
-  Chart.defaults.global.defaultFontColor = "#999";
-  Chart.defaults.global.tooltips.backgroundColor = "#000";
-  Chart.defaults.global.tooltips.bodyFontColor = "rgba(255,255,255,.7)";
-  Chart.defaults.global.tooltips.titleMarginBottom = 10;
-  Chart.defaults.global.tooltips.titleFontSize = 14;
-  Chart.defaults.global.tooltips.titleFontFamily = "'Nunito', 'Segoe UI', 'Arial'";
-  Chart.defaults.global.tooltips.titleFontColor = '#fff';
-  Chart.defaults.global.tooltips.xPadding = 15;
-  Chart.defaults.global.tooltips.yPadding = 15;
-  Chart.defaults.global.tooltips.displayColors = false;
-  Chart.defaults.global.tooltips.intersect = false;
-  Chart.defaults.global.tooltips.mode = 'nearest';
-}
+
 
 // DropzoneJS
 if(window.Dropzone) {
@@ -100,7 +83,7 @@ $(function() {
           return false;
         });
 
-        $('.main-sidebar .sidebar-menu li.active.dropdown').removeClass('active');
+        $('.main-sidebar .sidebar-menu li.active').removeClass('active');
 
         if(active==true) {
           me.parent().removeClass('active');
@@ -329,8 +312,7 @@ $(function() {
 
   // Select2
   if(jQuery().select2) {
-    const select2Opts = $(".select2").data('select2-opts')
-    $(".select2").select2(select2Opts || {});
+    $(".select2").select2();
   }
 
   // Selectric

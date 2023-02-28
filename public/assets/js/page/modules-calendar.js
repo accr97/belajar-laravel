@@ -20,8 +20,8 @@ $("#myEvent").fullCalendar({
     {
       title: "John's Birthday",
       start: '2018-01-14',
-      backgroundColor: "#007bff",
-      borderColor: "#007bff",
+      backgroundColor: "#3e6436",
+      borderColor: "#3e6436",
       textColor: '#fff'
     },
     {

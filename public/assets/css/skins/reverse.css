@@ -1,10 +1,10 @@
 body.skin-reverse.sidebar-mini .main-sidebar:after {
-  background-color: #6777ef;
+  background-color: #469073;
 }
 body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li.active > a {
   background-color: #fff;
   box-shadow: none;
-  color: #6777ef;
+  color: #469073;
 }
 body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li.active ul.dropdown-menu li a,
 body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li ul.dropdown-menu li a {
@@ -14,15 +14,15 @@ body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li ul.dropdown-menu l
 body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li.active ul.dropdown-menu li a:hover,
 body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover {
   background-color: #fcfcfd;
-  color: #191d21;
+  color: #19211E;
 }
 body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li.active ul.dropdown-menu li.active a,
 body.skin-reverse.sidebar-mini .main-sidebar .sidebar-menu li ul.dropdown-menu li.active a {
   background-color: transparent !important;
-  color: #6777ef;
+  color: #469073;
 }
 body.skin-reverse .main-sidebar {
-  background-color: #6777ef;
+  background-color: #469073;
 }
 body.skin-reverse .main-sidebar .sidebar-brand a {
   color: #fff;
@@ -31,22 +31,22 @@ body.skin-reverse .main-sidebar .sidebar-menu li a {
   color: #dadefb;
 }
 body.skin-reverse .main-sidebar .sidebar-menu li a:hover {
-  background-color: #6070e5;
+  background-color: #43856B;
 }
 body.skin-reverse .main-sidebar .sidebar-menu li.active a,
 body.skin-reverse .main-sidebar .sidebar-menu li.active a:hover,
 body.skin-reverse .main-sidebar .sidebar-menu li.active ul.dropdown-menu li a:hover,
 body.skin-reverse .main-sidebar .sidebar-menu li.active ul.dropdown-menu li a {
-  background-color: #6070e5;
+  background-color: #43856B;
 }
 body.skin-reverse .main-sidebar .sidebar-menu li.menu-header {
-  color: #afb7ff;
+  color: #97DDBB;
 }
 body.skin-reverse .main-sidebar .sidebar-menu li ul.dropdown-menu li a {
   color: #dadefb;
 }
 body.skin-reverse .main-sidebar .sidebar-menu li ul.dropdown-menu li a:hover {
-  background-color: #6777ef;
+  background-color: #469073;
   color: #fff;
 }
 body.skin-reverse .main-sidebar .sidebar-menu li ul.dropdown-menu li.active a {
