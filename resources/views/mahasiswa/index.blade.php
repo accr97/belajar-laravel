@@ -1,4 +1,7 @@
+@extends('layouts.master')
+@section('content')
 <h1> LIST MAHASISWA GUNADARMA</h1>
+
 
 <button>
     <a href="{{route('mahasiswa.create')}}" >Tambah Data </a>
@@ -31,4 +34,7 @@
         </tr>
     @endforeach
 </table>
+
+    @stop
+
 
